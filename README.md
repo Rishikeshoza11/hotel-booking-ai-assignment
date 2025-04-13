@@ -1,19 +1,26 @@
-# Hotel Booking API
+# Hotel Booking Analytics System - AI Intern Assignment
 
-## Usage
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Mistral](https://img.shields.io/badge/Mistral-7B-informational?style=flat&logo=huggingface)
+![RAG](https://img.shields.io/badge/Retrieval_Augmented_Generation-FF6F00?style=flat)
 
-1. Install dependencies:
+## 📌 Overview
+An AI-powered analytics system for hotel bookings featuring:
+- **Natural Language Q&A** (RAG with Mistral-7B)
+- **Automated Analytics Dashboard**
+- **REST API** (FastAPI backend)
 
-    pip install -r requirements.txt
+## 🚀 Quick Start
 
-2. Run the API:
+### Prerequisites
+- Python 3.8+
+- Pip package manager
 
-    python main.py
+### Installation
+```bash
+# Clone repository (if needed)
+git clone https://github.com/YOUR-USERNAME/hotel-booking-ai-assignment.git
+cd hotel-booking-ai-assignment
 
-3. Access endpoints:
-- Interactive docs: http://localhost:8000/docs
-- Health check: http://localhost:8000/
-
-Example POST request to /ask:
-
-    curl -X POST http://localhost:8000/ask -H "Content-Type: application/json" -d '{"question": "What is the average room rate?"}'
+# Install dependencies
+pip install -r requirements.txt
