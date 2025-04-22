@@ -1,4 +1,4 @@
-# Hotel Booking Analytics System - AI Intern Assignment
+# Hotel Booking Analytics System 
 
 ## Overview
 This project implements an AI-powered analytics system for hotel bookings with:
